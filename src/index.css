@@ -1,0 +1,28 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.date {
+    margin-top: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date button {
+    font-weight: 500;
+    color: red;
+}
